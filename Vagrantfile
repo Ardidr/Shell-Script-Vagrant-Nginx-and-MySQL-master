@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
     web1.vm.network "private_network", ip: "10.0.0.11"
     web1.vm.provision :shell do |shell|
       shell.args = "1"
-      shell.path = "https://gist.githubusercontent.com/harunyogaa/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-web.sh"
+      shell.path = "https://gist.githubusercontent.com/Ardidr/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-web.sh"
     end
   end
 
@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
     web2.vm.network "private_network", ip: "10.0.0.12"
     web2.vm.provision :shell do |shell|
       shell.args = "2"
-      shell.path = "https://gist.githubusercontent.com/harunyogaa/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-web.sh"
+      shell.path = "https://gist.githubusercontent.com/Ardidr/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-web.sh"
     end
   end
 
@@ -41,7 +41,7 @@ Vagrant.configure("2") do |config|
     db1.vm.network "private_network", ip: "10.0.0.13"
     db1.vm.provision :shell do |shell|
       shell.args = "3"
-      shell.path = "https://gist.githubusercontent.com/harunyogaa/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-db.sh"
+      shell.path = "https://gist.githubusercontent.com/Ardidr/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-db.sh"
     end
   end
 

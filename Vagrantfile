@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "ng1" do |ng1|
     ng1.vm.box = "ubuntu/trusty64"
     ng1.vm.network "private_network", ip: "10.0.0.10"
-    ng1.vm.provision "shell", path: "https://gist.githubusercontent.com/harunyogaa/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-ng.sh"
+    ng1.vm.provision "shell", path: "https://gist.githubusercontent.com/Ardidr/1b6463d219bc89ebc07d5f4244479843/raw/6611e93e7e5c26c873df2078eba34bf49c3fe176/provision-ng.sh"
   end
 
   config.vm.define "web1" do |web1|
